@@ -1,0 +1,67 @@
+.List {
+    background-color: #efefef;
+    border-radius: 5px;
+    margin: 10px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;}
+
+.btn {
+    display: flex;
+    align-items: center;
+    position:relative  ;
+    padding: 10px;
+}
+
+.btn button {
+    margin:0 5px;
+    position: absolute;
+    height: 30px;
+    position: absolute;
+    width: 100px;
+    border: 0;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    border-radius: 5px;
+}
+
+
+.btn .b1  {
+    right: 0;
+}
+
+.b2 {
+    right: 105px;
+}
+
+.edi {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.edi input {
+    width: 90%;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.btns button {
+    height: 30px;
+    width: 100px;
+    border: 0;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
